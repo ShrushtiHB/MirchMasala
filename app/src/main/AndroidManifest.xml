@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mirch_masala">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+        <activity android:name=".SettinsActivity"/>
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".AdminCategoryActivity" />
+        <activity android:name=".AdminAddNewProductActivity" />
+        <activity android:name=".Spices" />
+        <activity android:name=".DryFruits" />
+        <activity android:name=".Chocolates" />
+        <activity android:name=".Grains" />
+        <activity android:name=".Juices" />
+        <activity android:name=".BillActivity" />
+        <activity android:name=".Dairy" />
+        <activity android:name=".Home1Activity" />
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".AdminCategoryActivity" android:layout_height="match_parent"
+    android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold"
+        android:textSize="26sp" android:textAlignment="center" android:text="Add New Product" android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:id="@+id/slogan_category"
+        android:gravity="center_horizontal" />
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"
+    android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:id="@+id/linear1_category_layout"
+    android:layout_marginRight="10dp" android:layout_marginLeft="10dp" android:gravity="center" android:orientation="horizontal"
+    android:layout_below="@+id/slogan_category">
+
+    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:id="@+id/t_shirts" android:src="@drawable/dairy"/>
+
+    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:id="@+id/sports_t_shirts" android:src="@drawable/chocolates"/>
+
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:id="@+id/linear2_category_layout" android:gravity="center" android:orientation="horizontal" android:layout_below="@+id/linear1_category_layout">
+
+    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:id="@+id/glasses" android:src="@drawable/spices"/>
+
+    <ImageView android:layout_height="80dp" android:layout_width="90dp" android:id="@+id/purses_bags_wallets" android:src="@drawable/grains"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:id="@+id/linear3_category_layout" android:gravity="center" android:orientation="horizontal" android:layout_below="@+id/linear2_category_layout">
+
+    <ImageView android:layout_height="80dp" android:layout_width="80dp" android:id="@+id/headphones_handfree" android:src="@drawable/dryfruits"/>
+
+    <ImageView android:layout_height="80dp" android:layout_width="90dp" android:id="@+id/laptop_pc" android:src="@drawable/juices"/>
+
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="25dp" android:text="Check New Orders" android:id="@+id/check_orders_btn" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:textAllCaps="false" android:textColor="@android:color/white" android:background="@color/colorPrimaryDark" android:layout_marginBottom="10dp" android:layout_above="@+id/admin_logout_btn"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="25dp" android:text="Logout" android:id="@+id/admin_logout_btn" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:textAllCaps="false" android:textColor="@android:color/white" android:background="@color/colorPrimaryDark" android:layout_marginBottom="15dp" android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

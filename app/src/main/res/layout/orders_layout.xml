@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@color/colorPrimaryDark" android:layout_margin="10dp" android:padding="10dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="160dp" android:textStyle="bold" android:layout_marginLeft="2dp" android:textColor="@android:color/white" android:textSize="15dp" android:text="User Name" android:id="@+id/order_user_name"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="160dp" android:textStyle="bold" android:layout_marginLeft="5dp" android:textColor="@android:color/white" android:text="Phone Number" android:id="@+id/order_phone_number" android:textAlignment="viewEnd" android:layout_marginRight="5dp" android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="end" />
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textColor="@android:color/white" android:text="Total Price" android:id="@+id/order_total_price" android:layout_marginTop="35dp" android:gravity="center" android:layout_below="@+id/cart_product_quantity"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textColor="@android:color/white" android:text="Address,City" android:id="@+id/order_address_city" android:layout_marginTop="10dp" android:gravity="center" android:layout_below="@+id/order_total_price"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textColor="@android:color/white" android:text="Date Time" android:id="@+id/order_date_time" android:layout_marginTop="10dp" android:gravity="center" android:layout_below="@+id/order_address_city"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:background="@android:color/white" android:layout_marginLeft="20dp" android:textColor="@color/colorPrimaryDark" android:textSize="20dp" android:text="Show User Order Product" android:id="@+id/show_all_product_btn" android:layout_marginRight="20dp" android:layout_marginTop="20dp" android:layout_below="@+id/order_date_time"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

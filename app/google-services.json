@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "286699475019",
+    "firebase_url": "https://mirchmasala-99bdd.firebaseio.com",
+    "project_id": "mirchmasala-99bdd",
+    "storage_bucket": "mirchmasala-99bdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286699475019:android:9842f6b501171e5cb83dce",
+        "android_client_info": {
+          "package_name": "com.example.mirch_masala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286699475019-k6jsdd3r3tinqgkb2daem1ge9t7oq8h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mirch_masala",
+            "certificate_hash": "311bd9bbbe492e6d12a65be2c072f306d48d8aca"
+          }
+        },
+        {
+          "client_id": "286699475019-5jb8u8qusb5jc7r6kkkamtobo1ctopgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBJVxIVKOTNNI_BvNVA1tuTApv3QiC-1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286699475019-5jb8u8qusb5jc7r6kkkamtobo1ctopgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
